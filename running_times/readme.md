@@ -54,7 +54,7 @@ Compares O(n), O(n log n), and O(n²) algorithms with:
 
 **Compile and run:**
 ```bash
-g++ -O2 -std=c++17 compare_plot.cpp -o compare_plot_cpp
+g++ -O2 -std=c++17 compare_plot.cpp -o compare_plot
 ./compare_plot
 # Creates: algorithm_comparison_plot.png
 ```
