@@ -38,8 +38,8 @@ This single C++ program:
 
 **Compile and run:**
 ```bash
-g++ -O2 -std=c++17 matrix_plot_cpp.cpp -o matrix_plot_cpp
-./matrix_plot_cpp
+g++ -O2 -std=c++17 matrix_plot.cpp -o matrix_plot
+./matrix_plot
 # Creates: matrix_plot.png
 ```
 
@@ -54,8 +54,8 @@ Compares O(n), O(n log n), and O(n²) algorithms with:
 
 **Compile and run:**
 ```bash
-g++ -O2 -std=c++17 compare_plot_cpp.cpp -o compare_plot_cpp
-./compare_plot_cpp
+g++ -O2 -std=c++17 compare_plot.cpp -o compare_plot_cpp
+./compare_plot
 # Creates: algorithm_comparison_plot.png
 ```
 
